@@ -1,3 +1,5 @@
+package student;
+
 import java.util.Scanner;
 
 class student{
@@ -13,6 +15,7 @@ class commission1{
 	private String phone;
 	private double sale_amount;
 	
+	// method to accept details of the sales employee
 	
 	public void acceptdetails() {
 		
@@ -59,6 +62,10 @@ class commission1{
         System.out.println("Phone: " + phone);
         System.out.println("Sales Amount: " + sale_amount);
         System.out.println("Commission: " + commission);
+		
+		
+		
+		
 	}
 	
 	public class MainProgram {
@@ -71,5 +78,22 @@ class commission1{
 
 	        emp.calculatecommission();
 	    }
-	}	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
