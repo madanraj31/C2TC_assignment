@@ -27,5 +27,4 @@ private double overdraftLimit = 5000;
     public double getBalance() {
         return balance;
     }
-	
 }
